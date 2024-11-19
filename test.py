@@ -24,5 +24,5 @@ if __name__ == "__main__":
     if len(sys.argv) != 2:
         print("Usage: python script.py <output_file_path>")
     else:
-        output_file = sys.argv[1]
+        output_file = sys.argv[2]
         write_geojson(output_file)
