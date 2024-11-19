@@ -21,7 +21,7 @@ def write_geojson(output_path):
         print(f"An error occurred: {e}")
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
+    if len(sys.argv) != 3:
         print("Usage: python script.py <output_file_path>")
     else:
         output_file = sys.argv[2]
